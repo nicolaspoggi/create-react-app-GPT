@@ -15,7 +15,7 @@ function App() {
         <img src={reactLogo} style={{ height: 87 }} />
       </div>
       <p className='description'>
-        This is a template for creating a React site build it with Vite and deploying it on Fleek.
+        What is up.
       </p>
       <ul role="list" className='card-list'>
         <Card
