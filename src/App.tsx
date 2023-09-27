@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <div className="square" style={{ backgroundColor: colors[colorIndex] }}>
-        <h1 onClick={handleClick}>Click meeeeee</h1>
+        <h1 onClick={handleClick}>Click me</h1>
       </div>
     </div>
   );
