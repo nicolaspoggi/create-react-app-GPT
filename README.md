@@ -21,7 +21,7 @@ Inside of your React project, you'll see the following folders and files:
 └── package.json
 ```
 
-If you want to lern more about `vite` and `react` you can checkout [Vite Documentation](https://vitejs.dev/).
+If you want to lern moreout `vite` and `react` you can checkout [Vite Documentation](https://vitejs.dev/).
 
 ## 🧞 Commands
 
