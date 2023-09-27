@@ -4,16 +4,28 @@ import fleekMark from './assets/fleekMark.svg'
 import plusIcon from './assets/plus.svg'
 import viteLogo from './assets/vite.svg'
 
+import React, { useState } from 'react';
+
 import './App.css'
 
 function App() {
+  const colors = [
+    'red', 'blue', 'green', 'yellow', 'purple',
+    'cyan', 'magenta', 'black', 'brown', 'orange'
+  ];
+
+  const [colorIndex, setColorIndex] = useState(0);
+
+  const handleClick = () => {
+    setColorIndex((prevIndex) => (prevIndex + 1) % colors.length);
+  };
+
   return (
-    <main>
-      <div className="hero-top">
-        <img src={fleekLogo} style={{ height: 87 }} />
-        <img src={plusIcon} />
-        <img src={reactLogo} style={{ height: 87 }} />
+    <div className="App">
+      <div className="square" style={{ backgroundColor: colors[colorIndex] }}>
+        <h1 onClick={handleClick}>Click me</h1>
       </div>
+<<<<<<< Updated upstream
       <p className='description'>
         This is a template for creating a React site build it with Vite and deploying it on Fleek.
       </p>
@@ -82,6 +94,10 @@ function Card({ title, width, body, href, icon }: CardProps) {
       </a>
     </li>
   )
+=======
+    </div>
+  );
+>>>>>>> Stashed changes
 }
 
 export default App
