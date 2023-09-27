@@ -3,7 +3,7 @@ import fleekLogo from './assets/fleekLogo.svg'
 import fleekMark from './assets/fleekMark.svg'
 import plusIcon from './assets/plus.svg'
 import viteLogo from './assets/vite.svg'
-import useState from 'react';
+import useState from 'react'
 
 function App() {
   const colors = [
